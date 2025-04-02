@@ -6,8 +6,10 @@ This library can be installed on Visual Studio 2022 or in the terminal, with the
 ###### If you experience any errors, please make sure that you are executing the command in the root of your repository.
 
 ```bash
-dotnet add package CasualDev.ColorLib --version 1.0.0
+dotnet add package CasualDev.ColorLib --version 1.1.0
 ```
+
+Other methods of installation can be found on [NuGet](https://www.nuget.org/packages/CasualDev.ColorLib/).
 
 ## Description & Syntax
 CasualDev.ColorLib adds a hex struct that can be referenced like any regular data type. This contains:
