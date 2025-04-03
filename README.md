@@ -6,7 +6,7 @@ This library can be installed on Visual Studio 2022 or in the terminal, with the
 ###### If you experience any errors, please make sure that you are executing the command in the root of your repository.
 
 ```powershell
-dotnet add package CasualDev.ColorLib --version 1.1.0
+dotnet add package CasualDev.ColorLib --version 1.1.2
 ```
 
 Other methods of installation can be found on [NuGet](https://www.nuget.org/packages/CasualDev.ColorLib/).
@@ -38,6 +38,24 @@ namespace TestApplication
 }
 ```
 
+## Version & Patch Notes
+Version 1.1.3 is a "patch" type update. 
+
+This update fixes the following:
+- Corrected licensing and licensing files
+- hex is no longer "internal" and is now "public"
+
+This update changes/adds the following on the GitHub:
+- LICENSE File
+- .gitignore File
+- Project solution
+- Unit tests
+
+This update changes the following in the files:
+- "Class1.cs" to "hexStruct.cs"
+
 ## Licensing
-This project is licensed as CC-BY-SA 4.0 International. https://creativecommons.org/licenses/by-sa/4.0/deed.en
-Works utilizing this library are not required to give any credit, as they are not directly modifying the source code of this project. If you are modifying or redistributing this project, you are required to follow these terms.
+This project is licensed under the Mozilla Public License 2.0.
+See the full license at: https://opensource.org/licenses/MPL-2.0
+
+Works using this library are not required to provide credit as long as the source code of this project is not modified. If you modify or redistribute this project, you must comply with the terms of the MPL-2.0, which include providing attribution and making the modified source code available under the same license.
