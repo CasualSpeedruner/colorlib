@@ -5,7 +5,7 @@ A C# Library that adds a data type for storing colour values.
 This library can be installed on Visual Studio 2022 or in the terminal, with the following command.
 ###### If you experience any errors, please make sure that you are executing the command in the root of your repository.
 
-```bash
+```powershell
 dotnet add package CasualDev.ColorLib --version 1.1.0
 ```
 
